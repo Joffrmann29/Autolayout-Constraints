@@ -17,17 +17,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="I am a label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EYN-lY-ELc">
-                                <rect key="frame" x="200" y="56" width="200" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am a label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EYN-lY-ELc">
+                                <rect key="frame" x="257" y="56" width="86" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ixv-x9-1sn">
+                                <rect key="frame" x="180" y="180.5" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="ouA-SJ-m6n"/>
+                                    <constraint firstAttribute="width" constant="240" id="oy4-bW-aEp"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="EYN-lY-ELc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="36" id="8zc-36-727"/>
+                            <constraint firstItem="Ixv-x9-1sn" firstAttribute="centerX" secondItem="EYN-lY-ELc" secondAttribute="centerX" id="N3G-PF-yrW"/>
                             <constraint firstItem="EYN-lY-ELc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wew-9o-HgM"/>
+                            <constraint firstItem="Ixv-x9-1sn" firstAttribute="top" secondItem="EYN-lY-ELc" secondAttribute="bottom" constant="104" id="y9M-hi-ywI"/>
                         </constraints>
                     </view>
                 </viewController>
